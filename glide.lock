@@ -1,0 +1,10 @@
+hash: 19e2fbc2835f161f9bf693906ab39a81bf61b8c9f54794d3f90b44708b92b42a
+updated: 2017-08-01T14:43:46.704043933-04:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 75d583c2afd3807d4d3f24b31b06feebb8849242
+- name: github.com/joho/godotenv
+  version: 726cc8b906e3d31c70a9671c90a13716a8d3f50d
+- name: github.com/lib/pq
+  version: dd1fe2071026ce53f36a39112e645b4d4f5793a4
+testImports: []
