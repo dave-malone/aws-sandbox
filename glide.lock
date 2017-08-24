@@ -1,10 +1,18 @@
-hash: 19e2fbc2835f161f9bf693906ab39a81bf61b8c9f54794d3f90b44708b92b42a
-updated: 2017-08-01T14:43:46.704043933-04:00
+hash: 6a1c018895aa55226dd0dae7100e7b52a293c5ad36a7b1bd6c7e7aaacceccdc2
+updated: 2017-08-24T12:04:57.754439343-04:00
 imports:
 - name: github.com/aws/aws-sdk-go
-  version: 75d583c2afd3807d4d3f24b31b06feebb8849242
+  version: 85193e1d8a4a2df2f00ccdcd6a796673b1aec368
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: bcd8bc72b08df0f70df986b97f95590779502d31
 - name: github.com/joho/godotenv
   version: 726cc8b906e3d31c70a9671c90a13716a8d3f50d
 - name: github.com/lib/pq
-  version: dd1fe2071026ce53f36a39112e645b4d4f5793a4
+  version: e42267488fe361b9dc034be7a6bffef5b195bceb
+  subpackages:
+  - oid
+- name: github.com/unrolled/render
+  version: 50716a0a853771bb36bfce61a45cdefdb98c2e6e
 testImports: []
